@@ -1,5 +1,7 @@
 <h1><%= @restaurant.name %></h1>
 
+<%= link_to 'Add a review', new_restaurant_review_path(@restaurant) %>
+
 <ul>
   <li><%= @restaurant.category %></li>
   <li><%= @restaurant.address %></li>
